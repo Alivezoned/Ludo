@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
+// Alivezoned.com
 namespace Ludo_Ultimatum_Omega
 {
     public partial class LudoNew : Form
@@ -206,7 +207,6 @@ namespace Ludo_Ultimatum_Omega
 
         void create_path()
         {
-            int count = 1; int safe_box = 5;
             
             // Yellow Path
             yellow_path.path = Generate_Path(1, 15, 51, 0, "y");
